@@ -2,9 +2,10 @@
     background-color: white;
     height: 100%;
     padding-block-end: 30px;
+    padding-block-start: 10px;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+/* @media (min-width: 320px) and (max-width: 480px) {
     .main-container {
         padding-block-start: 150px;
     }
@@ -32,4 +33,4 @@
     .main-container {
         padding-block-start: 80px;
     }
-}
+} */

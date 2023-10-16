@@ -1,34 +1,58 @@
 "use client";
-import { useState } from 'react'
-import NextButton from "@/components/NextButton";
-import Contact from "@/components/Contact";
-import { Col, Row } from 'antd';
+import { Col, Row, Typography } from 'antd';
 import "./index.scss";
+import facebook from '../../../../public/assets/facebook.png'
+import whatsapp from '../../../../public/assets/whatsapp.png'
+import instagram from '../../../../public/assets/instagram.png'
+import logo from '../../../../public/assets/logo.png'
+import Image from 'next/image';
+
+const { Title } = Typography
 
 export default function Header() {
-
-  const [ viewContact, setViewContact ] = useState<boolean>(false)
-
-  const handleViewContact = () => {
-    setViewContact(true)
-  }
-
-  const handleCancelContact = () => {
-    setViewContact(false)
-  }
-
-
   return (
-    <nav className="container-navigation">
-      <Row gutter={[12,12]}>
-      <Col xs={24} sm={18} md={20}>
-        <h2 style={{color: '#6A9C89'}}> Viste la esencia de cada tejido, abraza la tradición en cada cerámico</h2>
-      </Col>
-      <Col xs={24} sm={6} md={4} className='gx-text-right'>
-        <NextButton text="Contáctanos" type="primary" onClick={handleViewContact} className='gx-w-100'/>
-      </Col>
-      </Row>
-      <Contact viewContact={viewContact} handleCancelContact={handleCancelContact}/>
+    <nav className="container-navigation gx-box-shadow-base">
+        <Row gutter={[12,12]} className='gx-d-flex gx-justify-content-between gx-align-items-center'>
+
+          <Col xs={24} sm={15} className='gx-d-flex gx-justify-content-start gx-align-items-center'>
+            <Image src={logo} alt='Logo' width={160} height={140}/>
+            <div>
+              <h1 className='title'>HEFZI BÁ & BEULA</h1>
+              <h1 className='title'>INDUMENTARIA</h1>
+              <h1 className='subtitle'>de José Angel Cieza Moreto</h1>
+            </div>
+          </Col>
+
+          <Col xs={24} sm={9}>
+            <a
+              href='' 
+              target='_blank' 
+              className='link gx-link gx-font-weight-bold gx-text-primary'
+              style={{color: '#9A4444', marginBlockEnd: '5px'}}
+            >
+              <Image src={facebook} alt='Facebook'/>
+              <p className='gx-ml-2'>Siguenos en Facebook</p>
+            </a>
+            <a 
+              href='https://wa.me/5491155058191'
+              target='_blank'
+              className='link gx-link gx-font-weight-bold gx-text-primary'
+              style={{color: '#9A4444', marginBlockEnd: '5px'}}
+            >
+              <Image src={whatsapp} alt='Whatsapp'/> 
+              <p className='gx-ml-2'>Contáctanos en Whatsapp</p>
+            </a>
+            <a 
+              href=''
+              target='_blank'
+              className='link gx-link gx-font-weight-bold gx-text-primary'
+              style={{color: '#9A4444', marginBlockEnd: '5px'}}
+            >
+              <Image src={instagram} alt='Instagram'/>
+              <p className='gx-ml-2'>Contactanos en Whatsapp</p>
+            </a>
+          </Col>
+        </Row>
     </nav>
   )
 }

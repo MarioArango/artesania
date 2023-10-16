@@ -1,36 +1,5 @@
 .main-container {
-    background-color: white;
     height: 100%;
     padding-block-end: 30px;
-    padding-block-start: 10px;
+    padding-block-start: 25px;
 }
-
-/* @media (min-width: 320px) and (max-width: 480px) {
-    .main-container {
-        padding-block-start: 150px;
-    }
-}
-
-@media (min-width: 481px) and (max-width: 767px) {
-    .main-container {
-        padding-block-start: 90px;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 1024px) {
-    .main-container {
-        padding-block-start: 90px;
-    }
-}
-
-@media (min-width: 1025px) and (max-width: 1280px) {
-    .main-container {
-        padding-block-start: 90px;
-    }
-}
-
-@media (min-width: 1281px) {
-    .main-container {
-        padding-block-start: 80px;
-    }
-} */

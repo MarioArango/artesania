@@ -8,7 +8,7 @@ const themeConfig: ThemeConfig = {
     fontSize: 16,
     margin: 8,
     fontFamily: 'Inter',
-    colorPrimary: '#6A9C89',
+    colorPrimary: '#9A4444',
     // colorText: '#555843',
     borderRadius: 8
   },

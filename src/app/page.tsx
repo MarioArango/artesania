@@ -51,7 +51,7 @@ export default function Home() {
           />
         }
       >
-        <Meta title="Europe Street beat" description="www.instagram.com" />
+        {/* <Meta title="Europe Street beat" description="www.instagram.com" /> */}
       </Card>
       <Card
         hoverable
@@ -65,7 +65,7 @@ export default function Home() {
           />
         }
       >
-        <Meta title="Europe Street beat" description="www.instagram.com" />
+        {/* <Meta title="Europe Street beat" description="www.instagram.com" /> */}
       </Card>
       <Card
         hoverable
@@ -79,7 +79,7 @@ export default function Home() {
           />
         }
       >
-        <Meta title="Europe Street beat" description="www.instagram.com" />
+        {/* <Meta title="Europe Street beat" description="www.instagram.com" /> */}
       </Card>
       <Card
         hoverable
@@ -93,7 +93,7 @@ export default function Home() {
           />
         }
       >
-        <Meta title="Europe Street beat" description="www.instagram.com" />
+        {/* <Meta title="Europe Street beat" description="www.instagram.com" /> */}
       </Card>
       <Card
         hoverable
@@ -107,7 +107,7 @@ export default function Home() {
           />
         }
       >
-        <Meta title="Europe Street beat" description="www.instagram.com" />
+        {/* <Meta title="Europe Street beat" description="www.instagram.com" /> */}
       </Card>
       <Card
         hoverable
@@ -121,7 +121,7 @@ export default function Home() {
           />
         }
       >
-        <Meta title="Europe Street beat" description="www.instagram.com" />
+        {/* <Meta title="Europe Street beat" description="www.instagram.com" /> */}
       </Card>
       <Card
         hoverable
@@ -135,7 +135,7 @@ export default function Home() {
           />
         }
       >
-        <Meta title="Europe Street beat" description="www.instagram.com" />
+        {/* <Meta title="Europe Street beat" description="www.instagram.com" /> */}
       </Card>
       <Card
         hoverable
@@ -149,7 +149,7 @@ export default function Home() {
           />
         }
       >
-        <Meta title="Europe Street beat" description="www.instagram.com" />
+        {/* <Meta title="Europe Street beat" description="www.instagram.com" /> */}
       </Card>
       <Card
         hoverable
@@ -163,7 +163,7 @@ export default function Home() {
           />
         }
       >
-        <Meta title="Europe Street beat" description="www.instagram.com" />
+        {/* <Meta title="Europe Street beat" description="www.instagram.com" /> */}
       </Card>
       <Card
         hoverable
@@ -177,7 +177,7 @@ export default function Home() {
           />
         }
       >
-        <Meta title="Europe Street beat" description="www.instagram.com" />
+        {/* <Meta title="Europe Street beat" description="www.instagram.com" /> */}
       </Card>
       <Card
         hoverable
@@ -191,7 +191,7 @@ export default function Home() {
           />
         }
       >
-        <Meta title="Europe Street beat" description="www.instagram.com" />
+        {/* <Meta title="Europe Street beat" description="www.instagram.com" /> */}
       </Card>
       <Card
         hoverable
@@ -205,7 +205,7 @@ export default function Home() {
           />
         }
       >
-        <Meta title="Europe Street beat" description="www.instagram.com" />
+        {/* <Meta title="Europe Street beat" description="www.instagram.com" /> */}
       </Card>
       <Card
         hoverable
@@ -219,7 +219,7 @@ export default function Home() {
           />
         }
       >
-        <Meta title="Europe Street beat" description="www.instagram.com" />
+        {/* <Meta title="Europe Street beat" description="www.instagram.com" /> */}
       </Card>
       <Card
         hoverable
@@ -233,7 +233,7 @@ export default function Home() {
           />
         }
       >
-        <Meta title="Europe Street beat" description="www.instagram.com" />
+        {/* <Meta title="Europe Street beat" description="www.instagram.com" /> */}
       </Card>
       <Card
         hoverable
@@ -247,7 +247,7 @@ export default function Home() {
           />
         }
       >
-        <Meta title="Europe Street beat" description="www.instagram.com" />
+        {/* <Meta title="Europe Street beat" description="www.instagram.com" /> */}
       </Card>
     </div>
   )

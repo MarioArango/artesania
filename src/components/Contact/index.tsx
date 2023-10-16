@@ -20,14 +20,14 @@ type ValuesForm = {
 
 export default function Contact({ viewContact, handleCancelContact }: IPropsContact) {
 
-    const [ link, setLink ] = useState('https://wa.me/51964911676/?text=')
+    const [ link, setLink ] = useState('https://wa.me/5491155058191/?text=')
 
     const [ form ] = Form.useForm()
     const { validateFields, resetFields } = form
     
     const handleFinish = () => {
         validateFields().then((values: ValuesForm) => {
-            const message = `Buen día, soy ${values.name} y mi numeró de contacto es ${values.phoneNumber}, quisiera información del servicio de transporte.`
+            const message = `Buen día, soy ${values.name} y mi numeró de contacto es ${values.phoneNumber}, quisiera información.`
             const linkPublic = link + encodeURIComponent(message)
             setLink(linkPublic)
             const enlace = document.getElementById("enlace")
